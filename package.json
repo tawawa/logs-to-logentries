@@ -1,0 +1,25 @@
+{
+  "name": "logs-to-logentries",
+  "description": "A simple logentries log client tool",
+  "version": "1.0.2",
+  "author": "Richard Seldon<arcseldon@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tawawa/logs-to-logentries.git"
+  },
+  "keywords": [
+    "logging",
+    "logentries"
+  ],
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "json-stringify-safe": "5.0.x",
+    "moment": "^2.13.0",
+    "request": "2.67.x"
+  },
+  "main": "./lib/logentries",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
